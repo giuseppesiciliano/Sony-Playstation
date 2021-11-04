@@ -110,15 +110,33 @@ main {
     margin-top: 105px;
 }
 
+/* Jumbotron */
 .jumbotron {
     height: 600px;
     background-image: url("../img/jumbo-bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 }
 
+.jumbotron-text {
+    padding-top: 220px;
+}
 
+.jumbotron-text img {
+    width: 270px;
+}
+
+.jumbotron-text h2 {
+    padding: 20px 0;
+    font-size: 40px;
+}
+
+.jumbotron-text p {
+    font-size: 16px;
+    font-weight: bold;
+}
 
 
 
