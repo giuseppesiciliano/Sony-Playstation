@@ -8,16 +8,25 @@ img {
 }
 
 ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
 ul li {
-    display: inline;
+    display: inline-block;
 }
 
 a {
     text-decoration: none;
+}
+
+/* BUTTONS */
+.nav-menu ul li .ms_btn {
+    color: white;
+    padding: 11px 16px;
+    background-color: #363636;
+    border-radius: 30px;
 }
 
 
@@ -43,67 +52,79 @@ header {
     padding-right: 10px;
 }
 
-
 /* Menu */
 nav {
-    height: 70px;
     background-color: white;
 }
-.logo-play {
-    width: 60px;
-    padding-top: 10px;
+.nav-menu {
+    height: 70px;
+    display: flex;
 }
+.nav-menu ul li a {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+/* Logo Play */
+.logo-play img {
+    width: 50px;
+}
+
+
+/* List Menu */
+ul li .arrow-down {
+    margin-left: 3px;
+    width: 10px;
+}
+.list-menu-sx {
+    display: flex;
+    flex-grow: 1;
+}
+.list-menu-dx .lens {
+    width: 25px;
+}
+nav ul li {
+    padding: 10px;
+}
+
+
+/* Burger Menu */
 .burger {
     font-size: 30px;
-    text-align: right;
-    padding-top: 15px;
-    cursor: pointer;
+    display: flex;
 }
-.burger .fa-solid {
-    border: 1px solid lightgrey;
-    padding: 5px 15px;
+.burger i {
+    border: 1px solid lightgray;
+    color: gray;
+    padding: 8px 18px;
     border-radius: 5px;
 }
-
-
-/* List Menu (Header) */
-header ul {
-    line-height: 70px;
-}
-header li a {
-    color: black;
-    padding-right: 20px;
-    font-weight: bold;
-}
-header li img {
-    width: 10px;
-    margin-left: 5px;
-}
-header li .lens {
-    width: 30px;
-}
-.list.menu-dx {
-    text-align: right;
-}
+/* ---------------end HEADER FIXED------------- */
 
 
 
-
-
-
-
-
-
-
-
-
-
-/* MAIN */
+/* ---------------------MAIN------------------- */
 main {
-    background-color: black;
-    height: 3000px;
-    width: 100%;
-    padding-top: 105px;
-    color: white;
+    margin-top: 105px;
 }
+
+.jumbotron {
+    height: 600px;
+    background-image: url("../img/jumbo-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
 
