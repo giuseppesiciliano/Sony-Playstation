@@ -7,6 +7,19 @@ img {
     width: 100%;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
 
 
 /* -----------------HEADER FIXED--------------- */
@@ -31,16 +44,66 @@ header {
 }
 
 
-/* Fixed Menu */
+/* Menu */
 nav {
     height: 70px;
-    /* width: 100%; */
     background-color: white;
 }
 .logo-play {
     width: 60px;
+    padding-top: 10px;
 }
 .burger {
     font-size: 30px;
     text-align: right;
+    padding-top: 15px;
+    cursor: pointer;
 }
+.burger .fa-solid {
+    border: 1px solid lightgrey;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+
+/* List Menu (Header) */
+header ul {
+    line-height: 70px;
+}
+header li a {
+    color: black;
+    padding-right: 20px;
+    font-weight: bold;
+}
+header li img {
+    width: 10px;
+    margin-left: 5px;
+}
+header li .lens {
+    width: 30px;
+}
+.list.menu-dx {
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MAIN */
+main {
+    background-color: black;
+    height: 3000px;
+    width: 100%;
+    padding-top: 105px;
+    color: white;
+}
+
