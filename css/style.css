@@ -214,12 +214,18 @@ main {
     padding: 25px 0;
 }
 
+
 /* Devices */
 .devices {
     padding-top: 30px;
 }
 
+.devices-img h6 {
+    text-align: center;
+    font-weight: bold;
+}
 
+/* Jumbotron Jumbo 2 */
 .jumbotron.jumbo2 {
     margin-top: 50px;
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
@@ -228,6 +234,73 @@ main {
 .jumbotron.jumbo2 img {
     width: 220px;
 }
+
+
+/* New Releases */
+.new-releases {
+    background-color: #1f1f1f;
+    color: white;
+}
+.new-releases h2 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.new-releases p {
+    font-size: 25px;
+}
+.releases-games img {
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.releases-games h6 {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* EXTRA */
