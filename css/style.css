@@ -265,11 +265,13 @@ main {
 .explore-ps4 .text-center {
     text-align: center;
 }
-.explore-ps5 span {
+.explore-ps4 span {
     font-size: 20px;
     position: relative;
     top: -15px;
-
+}
+.explore-ps4 a {
+    margin-bottom: 80px;
 }
 
 
@@ -307,8 +309,10 @@ main {
 
 
 
-
-
+footer {
+    background-color: #00439c;
+    height: 500px;
+}
 
 
 
