@@ -204,7 +204,7 @@ main {
 }
 
 .main-text h2 {
-    font-size: 45px;
+    font-size: 40px;
 }
 
 .main-text p {
@@ -247,17 +247,30 @@ main {
 }
 .new-releases p {
     font-size: 25px;
+    padding-bottom: 20px;
 }
 .releases-games img {
     border-radius: 20px;
-    margin-top: 30px;
 }
 .releases-games h6 {
     font-weight: bold;
     padding-top: 10px;
+    margin-bottom: 60px;
 }
 
+/* Explore PS4 */
+.explore-ps4 {
+    padding-top: 100px;
+}
+.explore-ps4 .text-center {
+    text-align: center;
+}
+.explore-ps5 span {
+    font-size: 20px;
+    position: relative;
+    top: -15px;
 
+}
 
 
 
