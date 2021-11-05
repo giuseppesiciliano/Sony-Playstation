@@ -133,9 +133,12 @@ main {
 }
 
 /* Jumbotron */
+.jumbotron.jumbo1 {
+    background-image: url("../img/jumbo-bg.png");
+}
+
 .jumbotron {
     height: 600px;
-    background-image: url("../img/jumbo-bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -148,7 +151,7 @@ main {
     align-items: flex-end;
 }
 
-.jumbotron-text img {
+.jumbotron.jumbo1 img {
     width: 270px;
 }
 
@@ -184,14 +187,15 @@ main {
 
 .playstation5-text {
     text-align: center;
-    /* padding-bottom: 70px; */
 }
 
 
-/* Classe comune in tutto il main */
+/* PlayStation */
 .main-text-pt {
     padding-top: 100px;
 }
+
+/* Classe comune in tutto il main */
 .main-text h6 {
     font-size: 15px;
     color: #0474ce;
@@ -210,15 +214,20 @@ main {
     padding: 25px 0;
 }
 
+/* Devices */
 .devices {
     padding-top: 30px;
 }
 
 
+.jumbotron.jumbo2 {
+    margin-top: 50px;
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
 
-
-
-
+.jumbotron.jumbo2 img {
+    width: 220px;
+}
 
 
 /* EXTRA */
