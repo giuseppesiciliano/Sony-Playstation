@@ -287,19 +287,29 @@ main {
     background-color: #bebcbb;
 }
 
+.ps-plus-text {
+    margin: 20px 0;
+}
 .ps-plus-text p {
-    padding: 30px 0;
+    padding-top: 30px;
     font-weight: bold;
 }
 
 .ps-plus-text img {
-    width: 350px;
+    width: 220px;
 }
-
+@media screen and (min-width: 768px) {
+    .ps-plus-text {
+        margin: 0px 0px;
+    }
+    .ps-plus-text img {
+        width: 300px;
+    }
+}
 
 /* Discounts */
 .discounts {
-    padding-top: 100px;
+    padding-top: 80px;
 }
 .discounts .main-text {
     text-align: center;
@@ -310,9 +320,39 @@ main {
 }
 
 
+/* PlayStation Now */
+.ps-now {
+    background-color: #161c3b;
+}
 
+.ps-now-text {
+    margin: 20px 0;
+}
 
+.ps-now-text p {
+    color: white;
+    padding-top: 30px;
+    font-weight: bold;
+}
 
+.ps-now-text img {
+    width: 220px;
+}
+
+@media screen and (min-width: 768px) {
+    .ps-now-text {
+        margin: 0px 0px;
+    }
+    .ps-now-text img {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .ps-now-text img {
+        width: 300px;
+    }
+}
 
 
 
