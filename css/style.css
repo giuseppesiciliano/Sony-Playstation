@@ -13,10 +13,6 @@ ul {
     padding: 0;
 }
 
-ul li {
-    display: inline-block;
-}
-
 a {
     text-decoration: none;
 }
@@ -66,7 +62,9 @@ header {
     left: 0;
     width: 100%;
 }
-
+header ul li {
+    display: inline-block;
+}
 /* Logo */
 .logo-sony {
     height: 35px;
@@ -231,6 +229,12 @@ main {
     font-weight: bold;
 }
 
+.devices-img img {
+    opacity: 0.5;
+}
+.devices-img img:hover {
+    opacity: 1;
+}
 /* Jumbotron Jumbo 2 */
 .jumbotron.jumbo2 {
     margin-top: 50px;
@@ -298,14 +302,7 @@ main {
 .ps-plus-text img {
     width: 220px;
 }
-@media screen and (min-width: 768px) {
-    .ps-plus-text {
-        margin: 0px 0px;
-    }
-    .ps-plus-text img {
-        width: 300px;
-    }
-}
+
 
 /* Discounts */
 .discounts {
@@ -339,7 +336,28 @@ main {
     width: 220px;
 }
 
+
+/* Social Media */
+.social .main-text {
+    padding: 70px 0;
+    text-align: center;
+}
+
+.social img {
+    padding-bottom: 50px;
+}
+
+
 @media screen and (min-width: 768px) {
+    /* PlayStation Plus */
+    .ps-plus-text {
+        margin: 0px 0px;
+    }
+    .ps-plus-text img {
+        width: 300px;
+    }
+
+    /* PlayStation Now */
     .ps-now-text {
         margin: 0px 0px;
     }
@@ -373,18 +391,56 @@ main {
 
 
 
-
+/* FOOTER */
 footer {
     background-color: #00439c;
-    height: 500px;
+}
+
+.footer-ps-logo {
+    width: 100px;
+    padding-top: 80px;
+}
+.footer-language-globe {
+    width: 20px;
+    padding: 40px 0;
+}
+.language span {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+footer ul {
+    padding-top: 10px;
+    padding-left: 25px;
+}
+footer ul li {
+    padding-top: 5px;
+}
+footer a {
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+.sie {
+    padding-top: 80px;
+    /* padding-left: 25px; */
+}
+.sie img {
+    width: 150px;
+}
+.sie p {
+    color: white;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 100px;
 }
 
 
 
 
-
-
-
-/* EXTRA */
-/* - Hover nei pulsanti con opacity */
-/* - Hover nelle immagini (card game) */
+@media screen and (min-width: 992px) {
+    footer ul {
+        padding-top: 70px;
+    }
+}
